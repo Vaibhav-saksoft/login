@@ -1,5 +1,5 @@
 {
-  "name": "@dovetail/login",
+  "name": "@Vaibhav-saksoft/login",
   "version": "1.0.0",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -14,19 +14,21 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaibhav-saksoft/login.git"
+  },
+  "author": "Vaibhav-saksoft",
+  "license": "MIT",
   "peerDependencies": {
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.22.9",
-    "@babel/preset-react": "^7.22.5",
-    "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-commonjs": "^25.0.5",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-json": "^6.0.0",
-    "rollup": "^3.29.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-postcss": "^4.0.2"
+    "rollup": "^4.0.0",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "babel-preset-react": "^7.0.0"
   }
 }
